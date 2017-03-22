@@ -50,7 +50,6 @@ public class DrawableView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        // canvas.drawBitmap( mBitmap, 0, 0, mBitmapPaint);
         paint.setAntiAlias(true);
         paint.setDither(true);
         paint.setColor(Color.GREEN);

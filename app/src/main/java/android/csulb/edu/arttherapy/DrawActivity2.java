@@ -13,7 +13,7 @@ import android.view.View;
 
 public class DrawActivity2 extends AppCompatActivity  implements SensorEventListener {
     private SensorManager mSensorManager;
-    private static final int FORCE_SENSOR_THRESHOLD = 25;
+    private static final int FORCE_SENSOR_THRESHOLD = 100;
     private static final int TIME_SENSOR_THRESHOLD = 350;
     private static final int SUBSEQUENT_SHAKE_TIMEOUT = 750;
     private static final int SHAKE_INTERVAL_DURATION = 2000;
